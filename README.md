@@ -1,4 +1,5 @@
 AWS Zero Hero day 1:
+
 What is DevOps:
 I would say devops is a process of improving the application delivery by ensuring there is a proper automation with a code quality that is maintained or with the application quality that is maintained and ensuring there is a continuous monitoring and continuous testing in place. 
 Four pillars of devops are:
@@ -7,3 +8,7 @@ Four pillars of devops are:
 3. monitoring
 4. testing
 
+AWS Zero Hero day 2:
+Software Development lifecycle:(SDLC)
+software development lifecycle is a process that is followed by the industry to design
+develop and test high quality product.
