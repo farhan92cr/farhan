@@ -68,6 +68,10 @@ AWS Services that Every DevOps Engineers should learn.
 
 15. ELK ---> Elasticsearch one of the better combinations is to use log stash and kibana
 
-16. AL
+16.  ML (machine Learning)
+
+
+
+
 
    
