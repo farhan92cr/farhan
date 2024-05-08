@@ -39,4 +39,32 @@ AWS Services that Every DevOps Engineers should learn.
    functionalities that can be teared on and like you know executed and teared on automatically.
    
 
+8. Cloud Build Services
+   - Aws code piplines --> it's like jenkins pipline
+   - Aws code build    --> it is a fully managed build service that takes care of
+                           compiling your code okay run some tests and provide some
+                           software packages.
+   - Aws code deploy   --> code deploy takes care of deploying your code or you know deploying your applications
+                           onto ec2 instances or on-premises servers okay so let's take an example for example you have your application let's say it's a legacy application or it's a micro service it is not containerized it it is being deployed on your ec2 instances for now so there has to be a set Easy Way by which once your artifacts are built okay once your continuous integration is done and let's say you have your artifact uh it can be a jar file War file or something let's say there is a war file that is created by your continuous integration and you want to deploy this war file onto a ec2 instance okay so that whoever is the user is getting the latest version of your ec2 uh sorry of your application on ec2 instance so for it to automatically happen you can use your AWS code deploy and code build like I mentioned you it takes care of your build related service okay uh whatever you are compiling of your code is a running of your code and all of these things and code pipeline is like your uh very similar to your Jenkins pipeline so these are the things and these are the tools using which AWS cicd takes place so if you are on AWS completely or if your organization is on AWS completely so you have to reevaluate why you are using Jenkins is it because you have Jenkins from old times or you know uh have you been using Jenkins uh for a long time now and it is difficult to migrate to AWS uh code related build related Services if if that is the case then you know you have to rethink okay because I'm completely on AWS now do I want to move completely to these things or in future I might move from AWS to Azure if you are in that certain State definitely.
+
+9. Aws Configuration:  --> AWS configuration service you can basically go ahead and look what are the configurations you have created like the basic example that I previously stated uh somebody is creating a unencrypted EBS volume or somebody is creating a S3 bucket without worsening so you know you can configure all of these things in your configuration AWS configuration and you can perform some remedy action 
+
+
+10. Billing and costing related services:
+
+11. AWS KMS:  --> Key Management Service
+    Key Management Service that means if you have some Secrets uh you have some Certificate Management certificates that you want to rotate or
+    you know certificates that you want to manage okay so in such cases you can store these certificates or you can store this kind of sensitive
+    information in AWS KMS and using KMS you can do things sort of service integration you can do sort of uh you know certificates rotation.
+
+12. Cloudtrail -->
+    it is a service you understand it as something that records here API activities okay and it preserves logs for a specific duration
+    like you know using cloudtrail you get you can get logs for uh last 30 days last six months so this is why cloud trail is used.
+
+13. Elastic Kubernetes Service --> AWS offers a managed kubernetes service.
+
+14. Fargate and ECS --> these are  aws container services.
+
     
+
+   
