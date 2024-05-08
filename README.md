@@ -81,13 +81,49 @@ AWS Zero Hero day 14:
 
 configuration management will aim to solve the problem of config or managing the configuration of multiple servers. 
 Configuration Management tools are 
- 1. Puppet
+ 1. Puppet   ---> push model --- puppet language ---new language
  2. chef
- 3. ansible
+ 3. ansible  ---> pull model --- agentless --- yaml --> global language
  4. salt
 
 
-    
+AWS Zero Hero day 16:
+   Infrastructure as Code | Terraform #IaC  : 
+   Terrafrom is also a API as code. ---> talk to any service provider using thier API
+
+what is api code so API as code
+is a concept using which you can
+automate any provider whether it is AWS
+Azure or gcp anything using their
+apis okay so what terraform does
+internally is terraform will talk to the
+API of azure terraform will talk to the
+API of gcp or terraform will talk to the
+API of openstack so using which like you
+know you don't have to write any code so
+once you write the terraform templating
+or you write the terraform script files
+terraform will convert them depending
+upon the provider details that you have
+provided so in one of the files called
+provider.tf you say that the provider is
+AWS so once you write the terraform
+module terraform will convert that
+script into AWS readable API okay or the
+API request that AWS can understand and
+it executes the action and gives you the
+result back okay so this is how
+terraform is one tool that can automate
+your resources on any cloud provider.
+
+
+
+
+
+
+
+
+
 
 
 
