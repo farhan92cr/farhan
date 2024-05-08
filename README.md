@@ -5,7 +5,7 @@ I would say devops is a process of improving the application delivery by ensurin
 Four pillars of devops are:
 1. automation
 2. quality
-3. monitoring
+3. monitoring 
 4. testing
 
 AWS Zero Hero day 2:
@@ -69,6 +69,39 @@ AWS Services that Every DevOps Engineers should learn.
 15. ELK ---> Elasticsearch one of the better combinations is to use log stash and kibana
 
 16.  ML (machine Learning)
+
+
+
+AWS Zero Hero day 14:
+       Configuration Management With Ansible:
+
+       1. Upgrades
+       2. Secure patches
+       3. installation
+
+configuration management will aim to solve the problem of config or managing the configuration of multiple servers. 
+Configuration Management tools are 
+ 1. Puppet
+ 2. chef
+ 3. ansible
+ 4. salt
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
