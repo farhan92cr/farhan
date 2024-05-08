@@ -65,6 +65,9 @@ AWS Services that Every DevOps Engineers should learn.
 
 14. Fargate and ECS --> these are  aws container services.
 
-    
+
+15. ELK ---> Elasticsearch one of the better combinations is to use log stash and kibana
+
+16. AL
 
    
