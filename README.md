@@ -120,7 +120,9 @@ your resources on any cloud provider.
 API: ---> concept called API okay so
 using API you can programmatically talk
 to any applications so whether it is
-GitHub whether it is Google .
+GitHub whether it is Google. using https or curl
+
+
 
 
 
