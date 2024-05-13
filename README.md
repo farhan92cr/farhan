@@ -133,6 +133,12 @@ same used to commands but the Entrypoint command be changed. cmd will change.
 
 
 
+Day-27 | Docker Volumes and Bind Mounts|Persistent Storage for Docker:
+
+docker -v < >
+docker --mount
+both are same command used for mount of docker. just the syntax diff, it bcz --mount has more verbos options. to 
+more clear undestanding for others.
 
 
 
