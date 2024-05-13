@@ -125,6 +125,12 @@ GitHub whether it is Google. using https or curl
 
 
 
+Day-25 | Docker Containerzation for Django:
+
+Inside a docker file the difference b/w Entrypoint and cmd is that, both are 
+same used to commands but the Entrypoint command be changed. cmd will change.
+
+
 
 
 
