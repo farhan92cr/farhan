@@ -146,6 +146,25 @@ Day-28 | Docker Networking | Bridge vs Host vs Overlay |Secure containers with c
     
 
 
+Day-29 | Docker Interview Questions with Answers:
+
+Docker add command can copy the files or you know files or whatever you are
+trying to do from a specific URL let's say you want to get a log file from some
+AWS S3 storage or you want to get some uh Java related file or you know any uh
+text file from GitHub as a raw file okay so in such cases you can use Docker add
+okay so the simple example is let's say you want to retrieve the log file from S3 bucket or you want to want to
+download a specific package from internet using W gate or Cal so in some cases in such cases you can use the
+docker add command once you give it the URL it will try to download whereas Docker copy is basically used to copy
+the files from your file system let's say you want to copy the source code from your file system from your laptop
+from your ec2 instance into the Container in such cases you will use the docker copy command so fairly different
+there is no similarity between both of them people get confused when they try
+to explain to the interviewer just be clear
+
+
+
+
+
+
 
 
 
