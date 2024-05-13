@@ -141,7 +141,9 @@ both are same command used for mount of docker. just the syntax diff, it bcz --m
 more clear undestanding for others.
 
 
-
+Day-28 | Docker Networking | Bridge vs Host vs Overlay |Secure containers with custom bridge network:
+  - Basically networking allows containers to communicate with each other and the host system.
+    
 
 
 
