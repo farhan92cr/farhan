@@ -202,4 +202,33 @@ kubernetes has something called as replica set.
 kubernetes controls and
 fix the damage so it will either control or it will fix
 so most of the time it will control the damage now what is the meaning of controlling the damage or what is the
+
+
+
+Day-31 | KUBERNETES ARCHITECTURE USING EXAMPLES:
+
+kubernetes offers four fundamental
+advantages over Docker that is
+kubernetes is by default a cluster in
+nature or cluster in Behavior then
+kubernetes offer something called as
+Auto healing kubernetes offer something
+called as Auto scaling and finally it
+offers multiple Enterprise level support
+like kubernetes offers you Advanced load
+balancing kubernetes offers you you know
+security related things it offers you
+Advanced networking so it offers you
+multiple Enterprise level support which
+is a major difference between Docker and
+kubernetes 
+
+
+
+
+
+
+
+
+
    
