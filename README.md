@@ -199,5 +199,7 @@ set is a new name replication controller is old name okay just like you can cons
 kubernetes has something called as replica set.
 
 
-
+kubernetes controls and
+fix the damage so it will either control or it will fix
+so most of the time it will control the damage now what is the meaning of controlling the damage or what is the
    
