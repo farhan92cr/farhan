@@ -163,10 +163,27 @@ to explain to the interviewer just be clear
 
 
 
+Day-30 | KUBERNETES IS EASY | INTRODUCTION TO KUBERNETES:
 
 
+Docker is a container platform that means Docker is making you the
+interaction with the containers or you know Docker is making your container Journey very easy because it provides a
+complete container life cycle whether it is using the docker engine or using the docker CLI it makes you the I mean it
+makes your container Journey very easy but now what is kubernetes then so if you already have a container platform
+and if the container platform is offering you a lot of things what is kubernetes so for the textbook
+definition kubernetes is nothing but a container orchestration platform.
 
 
+Ephemeral:
+it is nothing but something that is short
+life or you know short living in nature that means containers can die 
+
+
+Four problems with docker here and let us see how kubernetes is 
+solving each of this problem the first problem is a
+single host second problem is Auto scaling
+third problem is Auto healing
+fourth problem is Enterprise level support
 
 
 
