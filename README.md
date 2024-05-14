@@ -187,14 +187,16 @@ fourth problem is Enterprise level support
 
 
 
+kubernetes solves this problem so let's try to understand by default kubernetes is a cluster
+what is a cluster cluster is basically group of nodes.
 
 
+kubernetes installed in a master node architecture,
 
 
-
-
-
-
+kubernetes has something called as replication controller or replica sets so replica
+set is a new name replication controller is old name okay just like you can consider version one and version two so
+kubernetes has something called as replica set.
 
 
 
