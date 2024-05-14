@@ -225,10 +225,33 @@ kubernetes
 
 
 
+kubernetes architecture has something called asa control plane
+and kubernetes has something called as data plane.
+
+here are multiple components in
+com control plane like you know
+kubernetes has uh API server kubernetes
+has a component that is called as etcd
+kubernetes has a component that is
+called as a scheduler
+then you have a controller manager and
+then you have a cloud controller manager
+which is called as CCM and similarly in
+data plane also you have multiple
+components like you know you have your
+kubelet you have your proxy you have
+your uh you know container runtime
+
+
+Docker the simplest
+thing is container whereas in kubernetes
+the simplest thing is POD
 
 
 
+Day-33 | KUBERNETES PODS | DEPLOY YOUR FIRST APP:
 
-
+KubeCtL is nothing but like for Docker whenever you are trying to run any commands you have the docker CLI
+right in kubernetes you have something called as kubectal so kubectl is command line.
 
    
