@@ -251,7 +251,38 @@ the simplest thing is POD
 
 Day-33 | KUBERNETES PODS | DEPLOY YOUR FIRST APP:
 
+
 KubeCtL is nothing but like for Docker whenever you are trying to run any commands you have the docker CLI
 right in kubernetes you have something called as kubectal so kubectl is command line.
 
+
+
+For the installation of Kubernetes we need to install the follwing
+
+1. kubectl ---> google -kubectl installation --->
+   curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+   kubectl version --> to verify installtion or check verion.
+
+2. Now we will install kubernetes local cluster like
+   minikube, k3s, kind, microk8s etc
+   but we will install minikube. bcz it easy. kind is advanced topics, kind is basically kubernetes in docker.
+   --> google --> minikube  --> select system configuration --> curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+sudo install minikube-linux-amd64 /usr/local/bin/minikube && rm minikube-linux-amd64
    
+   minikube  --> to verify installtion
+
+minikube is  command line tool which allow you create kubernetes cluster.
+
+minikube start --> with this command kubernetes cluster will be started.
+
+kubectl get nodes --> you see that kubectl alreday connected to kubernetes cluster.
+
+
+
+
+   
+
+
+   
+
+ 
