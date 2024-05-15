@@ -279,6 +279,40 @@ kubectl get nodes --> you see that kubectl alreday connected to kubernetes clust
 
 
 
+POD :
+
+vim pod.yml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx
+spec:
+  containers:
+  - name: nginx
+    image: nginx:1.14.2
+    ports:
+    - containerPort: 80
+
+This is a sample yaml file, it's stay the same, we just need to change the value of keys like image: nginx:1.14.2 --> we use othe application/image instead of nginx
+maybe we also chnage the container port.
+
+docker run -d image: nginx:1.14.2 --name nginx -p 80:80 ---> if we compare a pod to docker, this the equilavent command in docker for container as the above is for Pod in kubernetes.
+
+
+kubctl create -f pod.yml --> to create the pod from yaml file, we write above.
+kubectl get pods --> to shows pod as in docker (docker ps)
+kubectl get pods -o wide --> to shows pod in more details
+curl <pod ip> --> to login to the pod application --> get ip of pod above
+minikube ssh <ip>
+
+
+kubectl chitsheet --> google it get all kubernetes command, no need to remember all
+
+
+
+
+
+
 
    
 
