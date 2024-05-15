@@ -306,7 +306,7 @@ curl <pod ip> --> to login to the pod application --> get ip of pod above
 minikube ssh <ip>
 
 
-kubectl chitsheet --> google it get all kubernetes command, no need to remember all
+kubectl cheatsheet --> google it get all kubernetes command, no need to remember all
 
 
 
