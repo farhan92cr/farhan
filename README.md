@@ -304,6 +304,9 @@ kubectl get pods --> to shows pod as in docker (docker ps)
 kubectl get pods -o wide --> to shows pod in more details
 curl <pod ip> --> to login to the pod application --> get ip of pod above
 minikube ssh <ip>
+kubectl delete pod <name like ngnix>
+kubectl describe pod ngnix
+kubectl log <pod name>
 
 
 kubectl cheatsheet --> google it get all kubernetes command, no need to remember all
