@@ -421,6 +421,13 @@ So in real world you cannot create pod directly, but will creata deployment, so 
 
 DAY-35 | EVERYTHING ABOUT KUBERNETES SERVICES | DISCOVERY | LOAD BALANCING | NETWORKING::
 
-   
+ https://www.youtube.com/watch?v=xY6Ic7Igzck&list=PLdpzxOOAlwvIKMhk8WhzN1pYoJ1YU8Csa&index=42&ab_channel=Abhishek.Veeramalla
+ 
+
+
+
+
+
+
 
  
