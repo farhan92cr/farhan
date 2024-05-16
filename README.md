@@ -251,9 +251,9 @@ the simplest thing is POD
 
 Day-33 | KUBERNETES PODS | DEPLOY YOUR FIRST APP:
 
-
+kubectl is to interact kubernets.
 KubeCtL is nothing but like for Docker whenever you are trying to run any commands you have the docker CLI
-right in kubernetes you have something called as kubectal so kubectl is command line.
+right in kubernetes you have something called as kubectl so kubectl is command line.
 
 
 
@@ -308,16 +308,83 @@ kubectl delete pod <name like ngnix>
 kubectl describe pod ngnix
 kubectl log <pod name>
 
+kubectl get all
+
 
 kubectl cheatsheet --> google it get all kubernetes command, no need to remember all
 
 
 
 
+Day-34 | KUBERNETES DEPLOYMENT | REPLICASETS :
 
 
 
-   
+Docker                 Pod                      Deploy:  1. auto healing  2. auto scaling
+
+we must create pod using deployment. bcz pod like docker conatiner, no auto heling scaling etc.
+
+
+deployment is responsible for implementing auto healing(recreating pods if someone delete them) and zero down time in kubernetes, 
+deployment will not do it directly, but take help of replicaset, and replica set is kubernetes controller. which is actually doing it.
+kubernete is a nothing but a go language application that  of kubernetes is return, which will ensure that a specific behaviour is implementtd.
+the behaviour is that the desired number of state/replicas will be there in deployment.
+
+vim deployment.yml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-deployment
+  labels:
+    app: nginx
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:1.14.2
+        ports:
+        - containerPort: 80
+
+
+
+kubectl apply -f deployment.yml
+
+
+   kubectl get deploy
+NAME               READY   UP-TO-DATE   AVAILABLE   AGE
+nginx-deployment   3/3     3            3           5m25s
+farhan@farhan-VirtualBox:~/kubernetes$ kubectl get rs   ---> rs means replicaset
+NAME                          DESIRED   CURRENT   READY   AGE
+nginx-deployment-77d8468669   3         3         3       5m31s
+farhan@farhan-VirtualBox:~/kubernetes$ kubectl get replicaset
+NAME                          DESIRED   CURRENT   READY   AGE
+nginx-deployment-77d8468669   3         3         3       5m43s
+farhan@farhan-VirtualBox:~/kubernetes$
+kubectl get pod
+NAME                                READY   STATUS    RESTARTS      AGE
+nginx                               1/1     Running   2 (13m ago)   23h
+nginx-deployment-77d8468669-gxjm4   1/1     Running   0             6m25s
+nginx-deployment-77d8468669-lpszk   1/1     Running   0             6m25s
+nginx-deployment-77d8468669-mxxpz   1/1     Running   0             6m25s
+farhan@farhan-VirtualBox:~/kubernetes$
+
+kubectl pods -w  --> to watch live 
+
+kubectl delete pod <name>
+
+Means if we delete/terminat a pod the recreation occur will be in the same time/parallel. bcz kubernete replicasset will ensure there will always be the number repliaset. if we delete one pod in parallel one willl recreate by kubernetes coontroller.
+
+So in real world you cannot create pod directly, but will creata deployment, so deployment will create replicaset, rs will create pods
+
+
 
 
    
