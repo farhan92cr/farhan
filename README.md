@@ -310,6 +310,39 @@ kubectl log <pod name>
 
 kubectl get all
 
+minikube ssh --> to enter/login to a pod 
+curl <ip of pod>  ---> to check if our pod is running
+
+below demo
+farhan@farhan-VirtualBox:~/kubernetes$ minikube ssh
+docker@minikube:~$ curl 10.244.0.9   ----> run from the inside of a pod
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to nginx!</title>
+<style>
+    body {
+        width: 35em;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+    }
+</style>
+</head>
+<body>
+<h1>Welcome to nginx!</h1>
+<p>If you see this page, the nginx web server is successfully installed and
+working. Further configuration is required.</p>
+
+<p>For online documentation and support please refer to
+<a href="http://nginx.org/">nginx.org</a>.<br/>
+Commercial support is available at
+<a href="http://nginx.com/">nginx.com</a>.</p>
+
+<p><em>Thank you for using nginx.</em></p>
+</body>
+</html>
+
+ssh -i <node name and ip>
 
 kubectl cheatsheet --> google it get all kubernetes command, no need to remember all
 
@@ -386,6 +419,7 @@ So in real world you cannot create pod directly, but will creata deployment, so 
 
 
 
+DAY-35 | EVERYTHING ABOUT KUBERNETES SERVICES | DISCOVERY | LOAD BALANCING | NETWORKING::
 
    
 
