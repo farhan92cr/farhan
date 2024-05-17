@@ -462,6 +462,7 @@ Day-36 | KUBERNETES INTERVIEW QUESTIONS PART-1| What's Your Score ? |10/10:
 
 
 
+![image](https://github.com/farhan92cr/farhan/assets/120403028/c75b1fc3-83b2-4041-8119-d55f7f787fa2)
 
 
 
