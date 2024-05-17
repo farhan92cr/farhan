@@ -464,9 +464,27 @@ Day-36 | KUBERNETES INTERVIEW QUESTIONS PART-1| What's Your Score ? |10/10:
 
 ![image](https://github.com/farhan92cr/farhan/assets/120403028/c75b1fc3-83b2-4041-8119-d55f7f787fa2)
 
+![image](https://github.com/farhan92cr/farhan/assets/120403028/426fc940-362a-487b-9870-c29887fd084c)
 
+![image](https://github.com/farhan92cr/farhan/assets/120403028/0170ee2f-1cdf-4a0f-8e17-e520a21842fb)
+
+![image](https://github.com/farhan92cr/farhan/assets/120403028/a8da8f62-7c0d-4aff-b85a-98d1eda7f6aa)
+
+![image](https://github.com/farhan92cr/farhan/assets/120403028/2a829ea3-0aeb-4e68-a92e-3b5d5f10852b)
+
+![image](https://github.com/farhan92cr/farhan/assets/120403028/ac30696c-1a57-441f-a70d-c0425cfc6248)
 
  
+
+
+DAY-37 | KUBERNETES SERVICES DEEP DIVE| LIVE DEMO | LEARN TRAFFIC FLOW USING KUBESHARK:
+
+
+
+
+
+
+
               
                 
 
