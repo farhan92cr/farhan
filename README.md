@@ -417,13 +417,57 @@ Means if we delete/terminat a pod the recreation occur will be in the same time/
 
 So in real world you cannot create pod directly, but will creata deployment, so deployment will create replicaset, rs will create pods
 
+in conculusion, deploy create replica sets and replicaset creates pods
 
 
 DAY-35 | EVERYTHING ABOUT KUBERNETES SERVICES | DISCOVERY | LOAD BALANCING | NETWORKING::
 
  https://www.youtube.com/watch?v=xY6Ic7Igzck&list=PLdpzxOOAlwvIKMhk8WhzN1pYoJ1YU8Csa&index=42&ab_channel=Abhishek.Veeramalla
- 
 
+Pod --> Deployment --> service
+
+what if there is no service in kubenetes?
+
+so when a pod is down for somereason, rs will create another in parallel with down one. but the problem is that the IP has changed. so the rs will healed the pod but the ip has changed. here the services concept will come. service provide load balancing.
+like --> payment.default.svc --->
+so user access to service, service will give the pod addres(ip).
+
+Service  ---> 1. load blancing
+              2. service discovery ---> svc alo face ip addres issue when a pod goes down, so here service use label and selectors. svc dosen't care about ip addres but use labels and selectors. label is common for all the pods. means when a pod down it auto heal, the ip addres changed but pod label will be same.
+              so this is the servics discovery mechanism of kubernetes.
+
+         Simply we add label in deployment like 
+         label:
+           app: payment
+
+        so whenever a new pod is created, service will keep track of label.
+              3. Expose to external world: service expose our application or service can allow our app to the external world. 
+              we can create 3 type of service
+              i. cluster ip --> only accessible inside cluster
+              ii. Nodeport --> it will allow our app to be accessible inside our organization.   
+              iii. Load balancer ---> here service will expose the app to external world.   like EKS ---> ELB(elastic load blanncer) ip --> uses public addres.
+
+
+ CCM --> cloud controller manager: The kubernetes master node has CCM. CCM will genertae the public ip addres. 
+ if you create a loaderblancer type then anybody can access.
+ if you create nodeport type node, anybody who have the worker node access can access.
+ cluster IP mode --> no body can access, only you can login kubernetes.
+
+
+
+
+Day-36 | KUBERNETES INTERVIEW QUESTIONS PART-1| What's Your Score ? |10/10:
+
+
+
+
+
+
+
+
+ 
+              
+                
 
 
 
