@@ -468,8 +468,6 @@ Day-36 | KUBERNETES INTERVIEW QUESTIONS PART-1| What's Your Score ? |10/10:
 
 ![image](https://github.com/farhan92cr/farhan/assets/120403028/0170ee2f-1cdf-4a0f-8e17-e520a21842fb)
 
-![image](https://github.com/farhan92cr/farhan/assets/120403028/a8da8f62-7c0d-4aff-b85a-98d1eda7f6aa)
-
 ![image](https://github.com/farhan92cr/farhan/assets/120403028/2a829ea3-0aeb-4e68-a92e-3b5d5f10852b)
 
 ![image](https://github.com/farhan92cr/farhan/assets/120403028/ac30696c-1a57-441f-a70d-c0425cfc6248)
@@ -479,7 +477,60 @@ Day-36 | KUBERNETES INTERVIEW QUESTIONS PART-1| What's Your Score ? |10/10:
 
 DAY-37 | KUBERNETES SERVICES DEEP DIVE| LIVE DEMO | LEARN TRAFFIC FLOW USING KUBESHARK:
 
+https://www.youtube.com/watch?v=fCX8O7GA_lY&t=79s&ab_channel=Abhishek.Veeramalla
 
+minukube status
+kubectl get all ---> to show all
+
+clone https://github.com/farhan92cr/Docker-Zero-to-Hero
+we will do deplyoment now.
+
+cd example
+ls
+vim Dockerfile --> the exsiting one
+docker build -t farhan/python-sample-app-demo:v1 .
+
+kubernetes deployment ----> search on google  --> get the sample deployment script.
+
+vim deployment.yml
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sample-python-app
+  labels:
+    app: sample-python-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: sample-python-app
+  template:
+    metadata:
+      labels:
+        app: sample-python-app
+    spec:
+      containers:
+      - name: python-app
+        image: python-sample-app-demo:v1
+        ports:
+        - containerPort: 8000
+
+
+
+
+kubectl apply -f deployment.yml
+
+kubctl get deploy
+OR
+kubectl get pod
+
+kubectl get podds -o wide --> to get IP addres
+
+kubectl get pods -v=9 ---> v is for verbosity(get more info), can be 1 to 9. 9 is highest
+
+
+kubectl delete pod <name>
 
 
 
