@@ -536,6 +536,17 @@ kubectl delete pod <name>
 
 
 
+
+
+DAY-38 | KUBERNETES INGRESS | WATCH DEMO USING LINK IN DESCRIPTION: 
+
+
+berfore dec 2015 there was no ingress in kubernets.
+
+Ingress: ----> service ---> discovrty, load blancing, expose
+
+Need to install kubernetes ingress controller minikube---
+
               
                 
 
