@@ -551,8 +551,19 @@ Need to install kubernetes ingress controller minikube---
                 
 
 
+DAY-39 | INTRODUCTION TO K8s RBAC | 30 DAYS FREE OPENSHIFT CLUSTER | LEARN RBAC WITH REAL CLUSTER:
+RBAC --> role based access control.
 
 
+kubernetes RBAC is directly related to security.
+Kubernetes RBAC can be divided into two parts:
+1. users                        2. Service account
+
+
+1. service account/users:
+2. Roles/cluster role:
+3. Role binding/CRB:
+4. 
 
 
  
